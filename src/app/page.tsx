@@ -1,9 +1,9 @@
-export default function HomePage() {
+import HomePage from "./pages/homepage";
+
+export default function Base() {
   return (
     <main>
-      <div>
-        <h3>Hello world</h3>
-      </div>
+      <HomePage />
     </main>
   );
 }
